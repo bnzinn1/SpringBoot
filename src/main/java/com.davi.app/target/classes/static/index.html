@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Spring Boot</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            background: #111;
+        }
+
+        .card {
+            padding: 40px;
+            border-radius: 20px;
+            background: #222;
+            color: white;
+            text-align: center;
+            box-shadow: 0 0 30px #000;
+        }
+
+        #mensagem {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Spring Boot</h1>
+        <div id="mensagem">Carregando...</div>
+    </div>
+
+    <script>
+        fetch("/api/mensagem")
+            .then(resposta => resposta.text())
+            .then(dados => {
+                document.getElementById("mensagem").textContent = dados;
+            });
+    </script>
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 /storage/emulated/0/Springboot/src/main/java/com.davi.app/Main.java
-/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/Tarefas.java
-/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/TarefasController.java
-/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/TarefasRepository.java
-/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/TarefasService.java
+/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/controller/TarefasController.java
+/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/dto/TarefasRequest.java
+/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/model /Tarefas.java
+/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/repository/TarefasRepository.java
+/storage/emulated/0/Springboot/src/main/java/com.davi.app/Tarefas/service/TarefasService.java

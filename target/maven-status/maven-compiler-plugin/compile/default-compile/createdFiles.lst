@@ -1,5 +1,6 @@
 com/davi/app/Main.class
-com/davi/app/TarefasRepository.class
-com/davi/app/Tarefas.class
-com/davi/app/TarefasController.class
-com/davi/app/TarefasService.class
+com/davi/app/Tarefas/dto/TarefasRequest.class
+com/davi/app/Tarefas/service/TarefasService.class
+com/davi/app/Tarefas/model/Tarefas.class
+com/davi/app/Tarefas/repository/TarefasRepository.class
+com/davi/app/Tarefas/controller/TarefasController.class
