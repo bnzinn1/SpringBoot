@@ -15,24 +15,24 @@ Olá! Essa é uma REST API feita por mim do zero utilizando Spring Boot.
 
 ### 1. Instale o Git
 
-pkg update && pkg install git
+#### pkg update && pkg install git
 
 ### 2. Clone o repositório
 
-git clone https://github.com/bnzinn1/SpringBoot
+#### git clone https://github.com/bnzinn1/SpringBoot
 
 ### 3. Acesse a pasta
 
-cd SpringBoot
+#### cd SpringBoot
 
 ### 4. Instale o Maven
 
-pkg update && pkg install maven
+#### pkg update && pkg install maven
 
 ### 5. Execute o projeto
 
-mvn spring-boot:run
+#### mvn spring-boot:run
 
 ### PRONTO!
 
-Depois disso, sua API estará rodando!
+#### Depois disso, sua API estará rodando!
